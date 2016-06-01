@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A14DE911CFF8CD700DC9948 /* Ip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE901CFF8CD700DC9948 /* Ip.swift */; };
+		0A14DE931CFF8CE000DC9948 /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE921CFF8CE000DC9948 /* Mac.swift */; };
+		0A14DE951CFF8E1200DC9948 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE941CFF8E1200DC9948 /* Router.swift */; };
+		0A14DE971CFF8E9400DC9948 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE961CFF8E9400DC9948 /* Node.swift */; };
 		DB7C30AB1CFF812500040771 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C30AA1CFF812500040771 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A14DE901CFF8CD700DC9948 /* Ip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ip.swift; sourceTree = "<group>"; };
+		0A14DE921CFF8CE000DC9948 /* Mac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		0A14DE941CFF8E1200DC9948 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0A14DE961CFF8E9400DC9948 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		DB7C30A71CFF812500040771 /* TrabalhoRedes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TrabalhoRedes; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C30AA1CFF812500040771 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB7C30B11CFF829100040771 /* rede1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rede1.txt; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 			children = (
 				DB7C30AA1CFF812500040771 /* main.swift */,
 				DB7C30B11CFF829100040771 /* rede1.txt */,
+				0A14DE901CFF8CD700DC9948 /* Ip.swift */,
+				0A14DE921CFF8CE000DC9948 /* Mac.swift */,
+				0A14DE941CFF8E1200DC9948 /* Router.swift */,
+				0A14DE961CFF8E9400DC9948 /* Node.swift */,
 			);
 			path = TrabalhoRedes;
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A14DE951CFF8E1200DC9948 /* Router.swift in Sources */,
+				0A14DE971CFF8E9400DC9948 /* Node.swift in Sources */,
+				0A14DE911CFF8CD700DC9948 /* Ip.swift in Sources */,
+				0A14DE931CFF8CE000DC9948 /* Mac.swift in Sources */,
 				DB7C30AB1CFF812500040771 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +259,7 @@
 				DB7C30B01CFF812500040771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
